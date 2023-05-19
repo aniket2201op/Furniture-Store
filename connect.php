@@ -1,6 +1,7 @@
 <?php
 /*
 This file contains database configuration assuming you are running mysql using user "root" and password ""
+Add Your own Configuration the one which you are using as I have been using the XAMPP Which provides the free mySql database I have been using that. 
 */
 
 define('DB_SERVER', 'localhost');
