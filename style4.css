@@ -1,0 +1,68 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    box-sizing: border-box;
+    font-family: 'Alegreya', serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    margin: 6rem 35rem 8rem 47rem;
+    width: 50rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-items: space-evenly;
+    position: relative;
+    align-items: center;
+    box-shadow: 0 3rem 4rem rgba(0, 0, 0, .4);
+}
+.norm-input{
+    width: 35rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: #5e8fda;
+    outline: none;
+    font-size: 1.5rem;
+    color: #194d9c;
+}
+
+
+.submit-btn{
+    width: 18rem;
+    height: 4rem;
+    font-size: 1.6rem;
+    border-radius: 10rem;
+    margin-top: 4rem;
+    margin-left: 2rem;
+    color: #d9dee6;
+    border: none;
+    outline: none;
+    letter-spacing: .09rem;
+    cursor: pointer;
+    background: linear-gradient(to left,rgb(89, 58, 201), rgba(69, 33, 199, 0.6) );;
+
+}
+.submit-btn:hover{
+    background: linear-gradient(to right,rgb(89, 58, 201), rgba(69, 33, 199, 0.6) );;
+}
+
+.submit-btn:active{
+    transform: translateY(.2rem);
+}
+
+.first-field ,.secnd-field{
+    margin-top: 5rem;
+}
+.header{
+    color: #194d9c;;
+    font-size: 3rem;
+    font-weight: 300;
+}
